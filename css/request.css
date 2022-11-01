@@ -1,0 +1,160 @@
+.request_head{
+    position: relative;
+    font-size: 0px;
+    width: 100%;
+    padding: 56px 0px 52px 0px;
+}
+.request_left{
+    width: 50%;
+    display: inline-block;
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+.request_left >h2{
+    font-size: 35px;
+    color: #5d5d5d;
+} 
+.request_left >p{
+    color: #5d5d5d;
+    font-size: 18px;
+    padding: 18px 0px 72px 0px;
+}
+.request_icon1{
+   padding-bottom: 72px;
+    font-size: 0px;
+    width: 100%;
+}
+.tick_icon1{
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+}
+.tick_icon2{
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+}
+.tick_icon1 >span >i{
+    color: #67a148;
+    display: inline-block;
+    padding-right: 12px;
+}
+.tick_icon1 >p{
+    display: inline-block;
+    font-size: 15px;
+    color: #5d5d5d;
+}
+.tick_icon2 >span >i{
+    color: #67a148;
+    display: inline-block;
+    padding-right: 12px;
+  
+}
+.tick_icon2 >p{
+    display: inline-block;
+    font-size: 15px;
+    color: #5d5d5d;
+}
+.request_icon2{
+    
+     font-size: 0px;
+     width: 100%;
+}
+/* right css start here */
+
+.request_right{
+    width: 50%;
+    display: inline-block;
+    font-size: 14px;
+    vertical-align: middle;
+}
+.request_form{
+    box-shadow: 0 5px 6px 0 rgb(0 0 0 / 20%);
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 44px 68px 56px 68px;
+    width: 589px;
+}
+.request_form >h3{
+    padding-bottom: 12px;
+    font-size: 25px;
+    text-align: center;
+    color: #5d5d5d;
+}
+.form_group1 >input{
+    width:100%;
+    height: 50px;
+    margin: 13px 0px;
+    background-color: #fafafa;
+    border: 1px solid #ccc;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+.form_group1 >textarea{
+    width: 100%;
+    height: 107px;
+    border: 1px solid #ccc;
+    background-color: #fafafa;
+    border-radius: 4px;
+    padding: 15px 20px;
+    color: #858585;
+}
+.send_btn1 >button{
+    width: 100%;
+    border: 1px solid #fb1ea0;
+    background-color: #fb1ea0;
+    color: #fff;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 25px;
+}
+
+@media (max-width:768px){
+    .contact_right_head{
+        display: none !important;
+    }
+    .contact_btn{
+        display: none !important;
+    }
+    .contact_logo{
+        width: 100% !important;
+    }
+    .contact_logo >a{
+        margin: 0px auto;
+    }
+    .request_left{
+        width: 100%;
+        display: block;
+    }
+    .request_left >h2{
+        font-size: 24px;
+    }
+    .request_left >p{
+        font-size: 18px;
+    }
+    .tick_icon1, .tick_icon2{
+        width: 100%;
+        padding: 10px 0px;
+    }
+    .request_icon1{
+        padding-bottom: 0px;
+    }
+    .request_left  >p{
+        padding: 18px 0px 20px 0px;
+    }
+    .request_right{
+       width: 100%;
+        display: block;
+        font-size: 0px;
+    }
+    .request_form >h3{
+        font-size: 18px;
+    }
+    .request_form{
+        max-width: 350px
+    }
+}

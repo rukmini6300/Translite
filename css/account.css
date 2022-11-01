@@ -1,0 +1,189 @@
+.form_acc{
+    border: 1px solid #ccc;
+    width: 620px;
+    height: 715px;
+    margin: 0px auto;
+    margin-top: 60px;
+    padding: 40px;
+    box-shadow: 0 2px 8px 0 rgb(0 0 0 / 11%);
+    border: none;
+}
+.form_acc >h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: #5b5b5b;
+    text-align: center;
+    padding-top: 61px;
+}
+.form_acc >p{
+    text-align: center;
+    padding-top: 10px;
+    color:#5b5b5b ;
+}
+.form_cont >input{
+    width: 100%;
+    border-radius: 3px;
+    background-color: #fafafa;
+    margin-bottom: 26px;
+    border: 1px solid #cccccc;
+    text-transform: capitalize;
+    padding: 15px 0px 18px 18px;
+}
+.acc_btn >button{
+    width: 100%;
+    border-radius: 3px;
+    background-color: #fb1ea0;
+    margin-bottom: 26px;
+    border: 1px solid #fb1ea0;
+    text-transform: capitalize;
+    padding: 15px 0px 18px 18px;
+    color: #fff;
+}
+form{
+    padding-top: 50px;
+}
+.text_color_lg{
+    color: #e90d8f;
+}
+.login{
+    text-align: center;
+    padding-bottom: 15px;
+}
+.login >p{
+    color: #5b5b5b;
+}
+h4{
+    text-align: center;
+    padding-top: 20px;
+
+}
+.acc_or{
+    border-bottom: 1px solid #ccc;
+    padding-top: 20px;
+    position: relative;
+}
+.form_acc >.acc_or::after{
+    position: absolute;
+    content: "Or";
+   
+    left: 0;
+    margin: 0px auto;
+    text-align: center;
+    top: 8px;
+    right: 0;
+    width: 35px;
+    background-color: #fff;
+}
+.google_acc{
+   
+   text-align: center;
+}
+/* .google_acc >span:first-child{
+    display: inline-block;
+    font-size: 14px;
+    padding: 13px 65px 14px 74px;
+    border: 1px solid red;
+    margin: 0px 20px;
+    margin-top: 34px;
+    border-radius: 3px;
+    cursor: pointer;
+ 
+}
+.google_acc >span:nth-child(2){
+    display: inline-block;
+    font-size: 14px;
+    padding: 13px 65px 14px 74px;
+    border: 1px solid #0d7ee9;
+    margin: 0px 20px;
+    margin-top: 34px;
+    border-radius: 3px;
+    cursor: pointer;
+   
+}
+
+.google, .link{
+    color: #5b5b5b;
+}
+.google >i, .link >i{
+    margin-right: 5px;
+}
+.link:hover > i{
+    background-color: #fff;
+    color: #0d7ee9;
+    padding: 4px;
+}
+.link:hover {
+    background-color: #0d7ee9;
+    color: #fff;
+}
+.google:hover > i{
+    background-color: #fff;
+    color: red;
+}
+.google:hover {
+    background-color: red;
+    color: #fff;
+}
+
+
+ */
+
+
+.account_button{
+    font-size: 0px;
+    text-align: center;
+    margin-top: 34px;
+}
+.acc_google{
+    display: inline-block;
+    font-size: 14px;
+    padding: 13px 65px 14px 74px;
+    border: 1px solid red;
+    margin: 0px 20px;
+ 
+    text-transform: uppercase;
+    border-radius: 3px;
+    cursor: pointer;
+   
+}
+.acc_google >i{
+    padding: 3px;
+    background-color: red;
+    color: #fff;
+   
+    margin-right: 3px;
+}
+.acc_link >i{
+    padding: 3px;
+    background-color: #0d7ee9;
+   color: #fff;
+  
+   margin-right: 4px;
+}
+.acc_link{
+    display: inline-block;
+    font-size: 14px;
+    padding: 13px 65px 14px 74px;
+    border: 1px solid #0d7ee9;
+    margin: 0px 20px;
+   
+    text-transform: uppercase;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.acc_google:hover{
+    background-color:red;
+    color: #fff;
+}
+.acc_google:hover > i {
+    background-color: #fff;
+    color:red;
+}
+.acc_link:hover{
+    background-color: #0d7ee9;
+    color: #fff;
+}
+.acc_link:hover >i{
+    background-color: #fff;
+    color: #0d7ee9;
+}

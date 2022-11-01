@@ -1,0 +1,649 @@
+body {
+    position: relative;
+      color: #000;
+    background-color: #fff;
+    font-family: 'Lato', sans-serif;
+
+  }
+  
+  * {
+      padding: 0;
+      margin: 0
+  }
+  
+  *,:after,:before {
+      box-sizing: border-box
+  }
+  
+  *,:focus {
+      outline: 0
+  }
+  
+  img {
+      max-width: 100%;
+      vertical-align: bottom
+  }
+  
+  a {
+      color: #272b3f;
+      text-decoration: none;
+      display: inline-block
+  }
+  
+  a:focus,a:hover {
+      text-decoration: none
+  }
+  
+  ul {
+      list-style-type: none
+  }
+  
+  h1,h2,h3,h4,h5,h6,p,ul {
+      margin-bottom: 0
+  }
+  
+  .container {
+      margin: 0 auto;
+      position: relative
+  }
+  
+  @media only screen and (max-width: 992px) {
+      .container {
+          padding:0 12px
+      }
+  }
+  
+  @media(min-width: 992px) {
+      .container {
+          width:970px
+      }
+  }
+  
+  @media only screen and (min-width: 1200px) {
+      .container {
+          width:1200px
+      }
+  }
+  
+  ::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+      border-radius: 20px
+  }
+  
+  ::-webkit-scrollbar-button {
+      display: none
+  }
+  
+  ::-webkit-scrollbar-track {
+      background-color: #ccc
+  }
+  
+  ::-webkit-scrollbar-track-piece {
+      background-color: #ccc
+  }
+  
+  ::-webkit-scrollbar-thumb {
+      background-color: #2f1dac
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+      background-color: #2f1dac
+  }
+  
+  ::-webkit-scrollbar-corner {
+      display: none
+  }
+  
+  ::-webkit-resizer {
+      display: none
+  }
+  
+  .list-inline {
+      padding: 0;
+      font-size: 0;
+      list-style-type: none
+  }
+  
+  .list-inline>li {
+      font-size: 14px;
+      display: inline-block;
+      vertical-align: middle;
+      padding: 0 16px
+  }
+  
+  .text-right {
+      text-align: right
+  }
+  
+  .text-left {
+      text-align: left
+  }
+  
+  .text-center {
+      text-align: center
+  }
+
+  /* header css start here */
+.ts_color{
+    background-color: #6c19c7;
+}
+.ts_head{
+   
+    position: relative;
+    font-size: 0px;
+}
+span >img{
+    display: block;
+    cursor: pointer;
+}
+.logo_right_head{
+    font-size: 14px;
+    width: 60%;
+    display: inline-block;
+    text-align: right;
+    vertical-align: middle;
+}
+.logo_right_head >ul >li{
+    display: inline-block;
+    padding: 0px 14px;
+}
+.logo_right_head >ul >li >a{
+    color: #fff;
+}
+.ts_about_head{
+    width: 100%;
+    font-size: 0px;
+    padding-top: 38px;
+}
+.ts_logo{
+    width: 25%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.tl_btn {
+    display: inline-block;
+    width: 15%;
+    text-align: right;
+    vertical-align: middle;
+}
+.tl_btn >button{
+    border: 1px solid#fb1ea0;
+    background-color: #fb1ea0;
+    border-radius: 26px;
+    padding: 11px 45px;
+    color: #fff;
+    cursor: pointer;
+}
+.logo_right_head >ul >li:last-child{
+    font-weight: bold;
+}
+/* banner css start here */
+.banner_home{
+  font-size: 0px;
+    position: relative;
+}
+.tl_ban_head{
+    background-image: url(../images/background1.png);
+   background-repeat: no-repeat;
+   background-position: center;
+   margin-top: 83px;
+}
+.ban_text{
+    font-size: 14px;
+    text-align: center;
+    padding: 77px 0px 10px 0px;
+}
+.ban_text >h1{
+    color: #fff;
+    font-size: 36px;
+    font-weight: bold;
+}
+.ban_text >p{
+    font-size: 18px;
+    color: #fff;
+    padding-top: 10px;
+
+}
+.text_ico{
+    padding: 45px 0px 30px 0px;
+}
+.text_ico >p{
+    display: inline-block;
+    color: #fff;
+    vertical-align: middle;
+    font-weight: bold;
+    padding-right: 10px;
+}
+.youtube{
+    display: inline-block;
+    vertical-align: middle;
+}
+.ul_list{
+    padding: 74px 0px 6px 0px;
+}
+.ul_list >li{
+    display: inline-block;
+    padding: 0px 3px;
+    vertical-align: middle;
+}
+.ul_list >li >input{
+    width: 385px;
+    height: 45px;
+    border: none;
+    border-radius: 3px;
+    padding: 15px 0px 14px 22px;
+}
+.ul_list >li >select{
+    width: 180px;
+    height: 45px;
+    padding: 15px 0px 14px 19px;
+    border-radius: 3px;
+}
+.ul_list >li >button{
+    width: 180px;
+    height: 45px;
+    border: none;
+    background-color: #fb1ea0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.bann_ico_text{
+    color: #d1a8ff;
+    font-size: 10px;
+    
+}
+/* how to work css */
+.work_head{
+    position: relative;
+    font-size: 0px;
+    background-color: #f9f9f9;
+}
+.tl_work_head{
+    font-size: 14px;
+    padding: 56px 0px 72px 0px;
+}
+.tl_work_head >h2{
+    font-size: 35px;
+    text-align: center;
+    color: #5b5b5b;
+    font-weight: bold;
+}
+.tl_work_head >p{
+    text-align: center;
+    color: #5b5b5b;
+    font-size: 15px;
+  
+    padding: 18px 0px 54px 0px;
+}
+/* box css start here */
+.tl_box_img{
+    width: 100%;
+    font-size: 0px;
+}
+.tl_box_img >li{
+    width: 33.33%;
+    display: inline-block;
+    font-size: 14px;
+    text-align: center;
+    vertical-align: top;
+}
+.box_img >p:nth-child(2){
+    padding: 17px 0px 14px 0px;
+    font-size: 18px;
+    color: #8e3fce;
+    font-weight: bold;
+   
+}
+.box_img >p:last-child{
+    color: #5b5b5b;
+    font-size: 15px;
+    
+    line-height: 1.53;
+}
+.text_tl{
+    display: block;
+}
+/* our solutions css  */
+.tl_our_head{
+    position: relative;
+    font-size: 0px;
+    box-shadow: 0 2px 3px 0 rgb(0 0 0 / 10%);
+    background-color: #fff; 
+}
+.our_sol_head{
+    padding: 58px 0px 86px 0px;
+    font-size: 14px;
+}
+.our_sol_head >h2{
+    font-size: 35px;
+    font-weight: bold;
+    color: #5b5b5b;
+    text-align: center;
+}
+.our_sol_head >p{
+    font-size: 15px;
+    color:#5b5b5b ;
+    line-height: 1.67;
+    text-align: center;
+padding: 20px 0px 34px 0px;
+}
+.color_tl{
+    color: #7700c8;
+}
+
+/* circle css  */
+.circle_head{
+    
+}
+.circle_img >p:nth-child(2){
+    padding: 32px 0px 14px 0px;
+    font-size: 18px;
+    color: #8e3fce;
+    font-weight: bold;
+}
+.circle_img >p:last-child{
+    color: #5b5b5b;
+    font-size: 15px;
+ 
+    line-height: 1.53;
+}
+.contact_tl{
+    text-align: center;
+    padding-top: 81px;
+}
+.contact_tl >a{
+  background-color: #e90d8f;
+    border: 1px solid #e90d8f;
+    width: 240px;
+    color: #fff;
+    padding: 17px 35px;
+    border-radius: 3px;
+   
+}
+/* why translite css */
+.why_translite{
+    position: relative;
+    font-size: 0px;
+    background-color: #f9f9f9;
+}
+.why_tl_head{
+    font-size: 14px;
+    padding-top: 70px;
+}
+.why_tl_head >h2{
+    font-size: 35px;
+    text-align: center;
+    padding-bottom: 110px;
+    color: #5b5b5b;
+}
+.text_img_tl{
+    width: 100%;
+    font-size: 0px;
+  padding-bottom: 106px;
+}
+.why_text{
+    width: 50%;
+    display: inline-block;
+    font-size: 14px;
+    vertical-align: middle;
+  
+}
+.why_img{
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.why_text >h2{
+    font-size: 20px;
+    color: #470298;
+    font-weight: bold;
+    padding-bottom: 13px;
+}
+.why_text >p{
+    color: #5b5b5b;
+    text-align: justify;
+    font-size: 15px;
+    line-height: 1.67;
+    max-width: 85%;
+}
+/* carusol css start here */
+.walmart_head >h2{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    padding-top: 63px;
+    color: #5b5b5b;
+}
+.walmart_logo >span >img{
+   margin: 0px auto;
+   padding: 40px 0px 50px 0px ;
+   max-width: 168px;
+}
+.carusol_text >p{
+    color: #5b5b5b;
+    font-size: 15px;
+    line-height: 1.67;
+   
+    text-align: center;
+}
+.person_logo{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.person_logo >span >img{
+    margin: 0px auto;
+    padding-top: 30px;
+}
+.nishal{
+    text-align: center;
+}
+.nishal >p{
+    padding: 4px 0px;
+  
+}
+.wal_color{
+    color: #ee008f;
+}
+.carousal{
+    background-color: #fffbef;
+}
+/* account css start here */
+.account_head{
+    position: relative;
+    font-size: 0px;
+}
+.tl_account{
+    font-size: 14px;
+    padding: 104px 0px 91px 0px;
+    text-align: center;
+}
+.tl_account >h3{
+    font-size: 35px;
+    color: #5b5b5b;
+    font-weight: bold;
+    padding-bottom: 11px;
+}
+.tl_account >p{
+    font-size: 15px;
+    font-weight: bold;
+    color: #5b5b5b;
+    padding-bottom: 34px;
+}
+.account_btn >button{
+    display: inline-block;
+    width: 230px;
+    border: 1px solid #e90d8f;
+    color: #e90d8f;
+    padding: 20px;
+    font-weight: bold;
+    background-color: #fff;
+    letter-spacing: 0.3px;
+    margin: 0px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.account_btn >button:hover{
+    background-color: #e90d8f;
+    color: #fff;
+    font-weight: bold;
+}
+.tl_img{
+    padding-top: 100px;
+}
+/* footer css */
+footer{
+    position: relative;
+    font-size: 0px;
+    background-color: #1e0042;
+}
+.tl_footer{
+    position: relative;
+    font-size: 0px ;
+    width: 100%;
+    padding: 31px 0px 60px 0px;
+}
+.ft_left{
+    display: inline-block;
+    width: 30%;
+    font-size: 14px;
+    vertical-align: top;
+    padding-top: 43px;
+}
+.ft_right{
+    display: inline-block;
+    width: 70%;
+    font-size: 14px;
+    background-image: url(../images/background1.png);
+    background-repeat:no-repeat;
+    background-position:center ;
+    vertical-align: top;
+}
+.ft_logo >span >img{
+    display: block;
+}
+.ft_left >p{
+    color: #fff;
+    font-size: 10px;
+    padding-top: 14px;
+}
+.ft_icon >li >a{
+    color: #fff;
+}
+.ft_icon{
+    padding-top: 26px;
+}
+.ft_icon >li{
+    display: inline-block;
+    padding: 0px 8px;
+    font-size: 18px;
+}
+
+.ft_list_tl >li >ul >li >a{
+    color: #edceff;
+    line-height: 2.14;
+}
+.ft_list_tl >li >ul >li >a:hover{
+    text-decoration: underline #edceff;
+}
+.ft_list_tl{
+    font-size: 0px;
+    width: 100%;
+}
+.ft_list_tl >li{
+    display: inline-block;
+    font-size: 14px;
+    width: 25%;
+}
+.ft_list_head{
+    padding-top: 43px;
+}
+.ft_list_tl >li >ul >li:first-child >a{
+   font-weight: bold;
+   color: #fff;
+    font-size: 16px;
+}
+
+input, select, textarea{
+    font-family: inherit;
+}
+@media (max-width:768px){
+    span >img{
+        margin: 0px auto;
+        display: block;
+    }
+    .tl_ban_head{
+        margin-top: 0px;
+    }
+    .ts_logo{
+        width: 100%;
+    }
+    .ban_text{
+        width: 100%;
+    }
+    .ul_list >li{
+        width: 50%;
+        display: inline-block;
+        padding-bottom: 20px;
+    }
+    .ul_list{
+        text-align: center; 
+        font-size: 0px;
+    }
+    .ul_list >li >input{
+        width: 100%;
+    }
+    .tl_box_img >li{
+        width: 100%;
+    }
+    .text_img_tl, .why_text{
+        width: 100%;
+        display: block;
+        padding: 0px 0px 18px 12px;
+    }
+    .why_img{
+        width: 100%;
+        padding-bottom: 15px;
+    }
+    .carousal{
+        width: 100%;
+    }
+    .account_btn >button{
+        margin: 10px 0px;
+    }
+    .ft_logo{
+        text-align: center;
+        width: 100%;
+        display: block;
+    }
+   .ft_logo >span >img{
+    margin: 0px auto;
+   }
+    .ft_left{
+      width: 100%;
+      text-align: center;
+        
+    }
+    .logo_right_head{
+        display: none;
+    }
+    .tl_btn{
+        display: none;
+    }
+    
+    .ft_icon{
+        width: 100%;
+        display: inline-block;
+    }
+    .ft_list_tl >li{
+        width: 50%;
+        padding-left: 40px;
+    }
+    .ft_right{
+        width: 100%;
+    }
+}

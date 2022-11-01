@@ -1,0 +1,254 @@
+.pricing{
+    width: 100%;
+    background-color: #6c19c7;
+    background-image: url(../images/background1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 20px;
+}
+.tl_pricing_head{
+    text-align: center;
+    padding: 64px 0px 76px 0px;
+}
+.ts_color1{
+    background-color: #6c19c7;
+    padding-bottom: 64px;
+}
+.tl_pricing_head >h2{
+    font-size: 50px;
+    color: #fff;
+    font-weight: bold;
+    padding-bottom: 34px;
+}
+.tl_pricing_head >p:nth-child(2){
+    color: #fff;
+    font-size: 35px;
+    font-weight: bold;
+    padding-bottom: 16px;
+    letter-spacing: 0.6px;
+}
+.tl_pricing_head >p:last-child{
+    color: #fff;
+    font-size: 18px;
+}
+.princing_banner_text{
+    text-align: center;
+}
+.princing_banner_text >p{
+    padding: 53px 0px 20px 0px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #545454;
+}
+.price_month{
+    padding: 0px 0px 87px 0px;
+}
+.price_month >p{
+    display: inline-block;
+    font-size: 35px;
+    font-weight: bold;
+    color: #545454;
+   vertical-align: middle;
+   padding: 0px 16px;
+}
+.switch{
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    padding: 0px 16px;
+}
+
+.move_button{
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    width: 58px;
+    height: 29px;
+    right: 0;
+    bottom: 0;
+    background-color: #dedede;
+   border-radius: 26px;
+   margin: -7px -3px;
+}
+.move_button::before{
+    position: absolute;
+    content: "";
+    width: 23px;
+    transition: 0.5s;
+    height: 23px;
+    border-radius: 50%;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 28%);
+    background-color: #fb1ea0;
+    left: 4px;
+    bottom: 3px;
+   vertical-align: middle;
+}
+/* box css */
+.price_box_one{
+    border: 1px solid #ccc;
+    margin: 0px 5px;
+    border-radius: 3px;
+}
+.price_box_one >h3{
+    background-color: #e6e6e6;
+    padding: 34px 0px;
+    text-align: center;
+    font-size: 15px;
+    color: #303030;
+    font-weight: bold;
+}
+.color_month >p{
+    color: #661fba;
+    text-align: center;
+}
+.tl_cost >small{
+    font-size: 25px;
+   font-weight: bold;
+}
+.tl_cost >span >sup{
+    font-size: 15px;
+    top: -34px;
+    position: relative;
+    right: 16px;
+}
+.tl_cost >span{
+   
+    font-size: 70px;
+}
+.tl_cost{
+    
+    padding: 33px 0px; 
+    position: relative;
+}
+.tl_cost::after{
+    width: 221px;
+    height: 1px;
+    position: absolute;
+    content: "";
+    left: 39px;
+    margin: 95px 0px;
+    background: #979797;
+}
+
+.box_text{
+    text-align: center;
+}
+.box_text >p{
+    padding: 18px 20px;
+    color: #3f3f3f;
+    font-size: 15px;
+    line-height: 20px;
+}
+.try_now_btn >button{
+    border: 1px solid #fb1ea0;
+    color: #fb1ea0;
+    background-color: #fff4fa;
+    padding: 14px 49px;
+    margin:60px 0px 51px 0px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.try_now_btn >button:hover{
+    background-color: #fb1ea0;
+    color: #fff;
+}
+.price_box_list{
+    width: 100%;
+    font-size: 0px;
+  
+}
+.price_box_list >li{
+    width: 25%;
+    display: inline-block;
+    font-size: 14px;
+}
+.text_decration{
+    text-decoration: underline;
+}
+.pricing_color{
+    background-color: #f9f9f9;
+}
+.color_month{
+    background-color: #fff;
+}
+.price_box_list>li:hover{
+    transition: 0.2s ease-in;
+    cursor: pointer;
+  
+    box-shadow: 0px 45px 60px 0px rgb(0 0 0 / 9%);
+}
+/* frequently css */
+.fq_head{
+    padding: 117px 0px 85px 0px;
+}
+.fq_head >h1{
+    text-align: center;
+    font-size: 24px;
+    color: #454545;
+}
+.fq_content_head{
+    width: 100%;
+    font-size: 0px;
+    position: relative;
+}
+.fq_left, .fq_right{
+    display: inline-block;
+    width: 50%;
+    font-size: 14px;
+    padding-top: 84px;
+    vertical-align: top;
+}
+.fq_left >h3{
+    font-size: 16px;
+    color: #454545;
+    font-weight: bold;
+    padding-bottom: 12px;
+}
+.fq_left >p{
+    font-size: 14px;
+    line-height: 1.57;
+    color: #454545;
+    padding-bottom: 20px;
+    max-width: 80%;
+}
+
+.fq_right >h3{
+    font-size: 16px;
+    color: #454545;
+    font-weight: bold;
+    padding-bottom: 12px;
+}
+.fq_right >p{
+    font-size: 14px;
+    line-height: 1.57;
+    color: #454545;
+    padding-bottom: 20px;
+    max-width: 80%;
+}
+.fq_right >h2{
+    font-size: 16px;
+    color: #454545;
+    font-weight: bold;
+    padding: 71px 0px 12px 0px;
+}
+.fq_color{
+    background-color: #f9f9f9;
+}
+/* button hover effects */
+
+.pricing_box> ul >li:hover .price_box_one > h3 {
+    background-color: #661fba;
+    color: #fff;
+}
+
+.pricing_box> ul >li:hover .try_now_btn >button {
+    background-color: #fb1ea0;
+    color: #fff;
+}
+
+/* button rotate */
+.switch > input:checked +.move_button:before{
+    transform: translateX(27px);
+    transition: 0.5s;
+}
